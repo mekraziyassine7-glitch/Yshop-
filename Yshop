@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y.SHOP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px 0;
+        }
+        li:hover {
+            color: #007BFF;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Y.SHOP
+    </header>
+    <nav>
+        <a href="#vetements">Vêtements</a>
+        <a href="#chaussures">Chaussures</a>
+        <a href="#casquettes">Casquettes</a>
+    </nav>
+
+    <div id="vetements" class="section">
+        <h2>Vêtements</h2>
+        <ul>
+            <li>Homme</li>
+            <li>Enfant</li>
+            <li>Femme</li>
+        </ul>
+    </div>
+
+    <div id="chaussures" class="section">
+        <h2>Chaussures</h2>
+        <ul>
+            <li>Asics</li>
+            <li>Nike</li>
+            <li>Adidas</li>
+        </ul>
+    </div>
+
+    <div id="casquettes" class="section">
+        <h2>Casquettes</h2>
+        <ul>
+            <li>Nike</li>
+            <li>Under Armour</li>
+            <li>Fendi</li>
+            <li>Gucci</li>
+        </ul>
+    </div>
+</body>
+</html>
